@@ -101,11 +101,7 @@ function ToDo(){
                         className='border'
                         value={newTodo}
                     />
-                    <button
-                        onClick={handleAddTodo}
-                    >
-                        Add task
-                    </button>
+                    <button onClick={handleAddTodo}>Add task</button>
                 </div>
 
                 <div>
